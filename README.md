@@ -11,7 +11,7 @@ To estimate the percolation threshold probability (which is around 0.593 for a s
 
 Two different methods were used to determine wether or not a grid percolates :
 
-- The first percolation finding algorithm is a 'naive search' that tries every single possible path to determine if one goes from the top to the bottom. This takes some time... approximately 10 minutes to estimate the percolation probability.
+- The first percolation finding algorithm is a 'depth-find-search' that naively tries every single possible path to determine if one goes from the top to the bottom. This takes some time... approximately 10 minutes to estimate the percolation probability.
 
 - The second algorithm is a 'union-find' where each explored cell is linked and remembered. Naturally, this requires more memory, but the time needed goes from 10 minutes to not even 1 second !
 
